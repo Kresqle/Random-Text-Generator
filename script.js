@@ -41,7 +41,6 @@ function generate () {
     }
   }
 
-  console.log(text)
   output.innerText = text
 }
 
