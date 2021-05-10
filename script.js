@@ -5,9 +5,9 @@ const trainVerb = document.getElementById('trainVerb')
 const trainComplement = document.getElementById('trainComplement')
 const trainButton = document.getElementById('trainButton')
 
-var array = {subject: [], verb: [], complement: []}
-
 function train () {
+  var array = {subject: [], verb: [], complement: []}
+  
   var split = (trainSubject.value).split(';')
   for (i = 0; i < split.length; i++) {
     array.subject.push(split[i])
